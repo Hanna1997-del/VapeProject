@@ -1,4 +1,5 @@
 import BlackCard from '@/components/BlackCards'
+import DesktopOnly from '@/components/DesktopOnly'
 import Footer from '@/components/Footer'
 import ItemList from '@/components/ItemList'
 import NewReleaseList from '@/components/NewReleaseList'
@@ -12,6 +13,7 @@ export default function Home() {
       <ItemList/>
       <BlackCard/>
       <NewReleaseList/>
+      <DesktopOnly/>
       <Footer/>
     </main>
   )
