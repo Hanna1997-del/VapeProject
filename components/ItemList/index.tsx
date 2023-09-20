@@ -48,7 +48,7 @@ const itemlist_data = [
 
 const ItemList: React.FC<ItemListProps> = () => {
   const [width, setWidth] = useState(0);
-  const isMobile = width < 400;
+  const isMobile = width < 600;
 
   const getItemList = () => {
     const data = [...itemlist_data];
