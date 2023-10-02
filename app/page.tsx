@@ -1,6 +1,7 @@
 import BlackCard from '@/components/BlackCards'
 import ItemList from '@/components/ItemList'
 import Slider from '@/components/Slider'
+
 import Image from 'next/image'
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Slider/>
       <ItemList/>
       <BlackCard/>
+    
     </main>
   )
 }
