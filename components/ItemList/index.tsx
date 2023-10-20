@@ -48,12 +48,14 @@ const itemlist_data = [
   },
 ];
 
+
 const ItemList: React.FC<ItemListProps> = () => {
   const [width, setWidth] = useState(0);
   const isMobile = width < 600;
 
   const getItemList = () => {
     const data = [...itemlist_data];
+
     if(isMobile){
       return data.splice(0,2);
     }
@@ -65,6 +67,8 @@ const ItemList: React.FC<ItemListProps> = () => {
       setWidth(window.innerWidth)
     }
   },[])
+
+
   return (
     <div className="w-full md:w-[1110px] mt-[1rem] md:mt-[3rem] text-center mb-[5rem]">
       <Title
