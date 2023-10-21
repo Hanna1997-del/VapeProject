@@ -41,7 +41,7 @@ const Login: React.FC<LoginProps> = () => {
                 ></div>
                 <label>Remember me</label>
               </div>
-              <Link href="/forget-password" className="text-blue-600 font-bold">
+              <Link href="/forgetPassword-bg" className="text-blue-600 font-bold">
                 Forgot Password?
               </Link>
             </div>
