@@ -3,7 +3,11 @@
 @tailwind utilities;
  
 @layer base {
-  
+  .image-container > img {
+    position: relative !important;
+    width: 100% !important;
+    height: max-content !important;
+  }
 }
  
 @layer base {

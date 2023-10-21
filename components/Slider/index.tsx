@@ -9,8 +9,6 @@ import SliderButton from "../SliderButton";
 
 interface SliderProps {}
 
-
-
 const slides = [
   {
     image: "/images/slider-sample.jpg",
@@ -34,6 +32,7 @@ const slides = [
 
 const Slider: React.FC<SliderProps> = () => {
   const [selected, setSelected] = useState(0);
+
   const onNext = () => {
     const nextValue = selected < 2 ? selected + 1 : 0;
     setSelected(nextValue);
@@ -42,6 +41,7 @@ const Slider: React.FC<SliderProps> = () => {
     const prevValue = selected > 0 ? selected - 1 : 2;
     setSelected(prevValue);
   };
+
   return (
     <div className={clsx("relative w-full aspect-[1440/650] md:aspect-[1440/585]")}>
       <Navbar/>
