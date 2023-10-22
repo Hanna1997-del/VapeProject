@@ -18,17 +18,17 @@ export default function page() {
     </div>
     <div>
     <div className={cn("flex flex-col justify-center items-center mt-24" , "w-full h-full")}>
-        <div className='max-w-[502px] h-[450px] bg-pure-white rounded-lg '>
-        <div className='flex justify-center'>
+        <div className='max-w-[502px] h-[500px] bg-pure-white rounded-lg '>
+        <div className='flex justify-center mt-16'>
                <Image src="/images/004.png" alt="verify" width={151} height={132}/>
             </div>
-            <h3 className='font-bold text-[24px] mb-[10px] text-center mt-5 '>Verify your Email</h3>
+            <h3 className='font-bold text-[24px]  text-center mt-5 '>Verify your Email</h3>
            
-            <p className='text-[15px] text-light-gray  p-8'>Thank you, check your email for the instructions
+            <p className='text-[15px] text-light-gray  py-3 px-8'>Thank you, check your email for the instructions
             to reset your password
             </p>
             
-            <button className="w-[402px] h-[56px] bg-black rounded-[12px] text-white mb-[32px] mx-12">
+            <button className="w-[402px] h-[56px] bg-black rounded-[12px] text-white mb-[32px] mx-12 mt-8 ">
        skip Now
       </button>
      <div className='text-center w-full flex justify-center gap-2'>
