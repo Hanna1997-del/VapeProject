@@ -22,6 +22,8 @@ module.exports = {
         "light-gray" : "#808DA1",
         "pure-white" : "#FFFFFF",
         "whiter" : "#F8FAFC",
+        "sunset" : "#FF4545",
+        "gold" : "#FCC100 ",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
