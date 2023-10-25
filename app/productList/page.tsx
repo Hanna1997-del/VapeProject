@@ -43,7 +43,7 @@ export default function page() {
          <div className='w-[950px] grid grid-cols-4 mt-10 gap-2'>
             {products.map(product =>(
                 <div className=' relative '>
-                    <Image src={product.img} alt="product" width={178} height={178} />
+                    <Image src={product.img} className='shadow-xl border border-gray rounded-xl' alt="product" width={178} height={178} />
                      <div className='ml-10 mt-6 mb-16'>
                      <h3>{product.title}</h3>
                     <p className='ml-3'>{product.price} MMK</p>

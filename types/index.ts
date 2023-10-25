@@ -8,15 +8,15 @@
       img: string;
       percentage: number;
  }
-//  export type ElementState =
-//   | undefined
-//   | "loading"
-//   | "disable"
-//   | "error"
-//   | "success"
+ export type ElementState =
+  | undefined
+  | "loading"
+  | "disable"
+  | "error"
+  | "success"
     
   
-//   | null;
+  | null;
    
 
   export type {
