@@ -8,6 +8,10 @@
       img: string;
       percentage: number;
  }
+ type ProductImgProps ={
+  id:number;
+  img: string;
+ }
  export type ElementState =
   | undefined
   | "loading"
@@ -20,6 +24,7 @@
    
 
   export type {
-    ProductProps
+    ProductProps,
+   ProductImgProps
   };
 

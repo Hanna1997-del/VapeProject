@@ -1,5 +1,5 @@
 import {
-    ProductProps
+    ProductProps, ProductImgProps
 } from "@/types";
 
 import {AiFillStar} from "react-icons/ai"
@@ -30,4 +30,11 @@ const products: ProductProps[] =[
     discount: 45000,  points: 600,img:"/images/product.png",percentage: 25},
 ];
 
-export {products};
+const image: ProductImgProps[] =[
+    {id:1, img:"/images/product.png"},
+    {id:2, img:"/images/product.png"},
+    {id:3, img:"/images/product.png"},
+    {id:4, img:"/images/product.png"},
+]
+
+export {products,image};
